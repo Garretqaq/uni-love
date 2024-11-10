@@ -5,13 +5,66 @@
 			"style": {
 				"navigationBarTitleText": "uni-app x"
 			}
+		},
+		{
+			"path" : "pages/love/love",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/about/about",
+			"style" : 
+			{
+				"navigationBarTitleText" : "关于"
+			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app x",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+	  "navigationBarTextStyle": "black",
+	  "navigationBarTitleText": "uni-halo",
+	  "navigationBarBackgroundColor": "#ffffff",
+	  "backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"tabBar": {
+	  "backgroundColor": "#fff",
+	  "borderStyle": "white",
+	  "color": "#303133",
+	  "selectedColor": "#03a9f4",
+	  "list": [
+	    {
+	      "iconPath": "static/tabbar/select_home.png",
+	      "selectedIconPath": "static/tabbar/select_home_active.png",
+	      "pagePath": "pages/index/index",
+	      "text": "首页"
+	    },
+	    {
+	      "iconPath": "static/tabbar/select_category.png",
+	      "selectedIconPath": "static/tabbar/select_category_active.png",
+	      "pagePath": "pages/tabbar/category/category",
+	      "text": "分类"
+	    },
+	    {
+	      "iconPath": "static/tabbar/select_gallery.png",
+	      "selectedIconPath": "static/tabbar/select_gallery_active.png",
+	      "pagePath": "pages/tabbar/gallery/gallery",
+	      "text": "图库"
+	    },
+	    // {
+	    //   "iconPath": "static/tabbar/select_links.png",
+	    //   "selectedIconPath": "static/tabbar/select_links_active.png",
+	    //   "pagePath": "pages/tabbar/moments/moments",
+	    //   "text": "瞬间"
+	    // },
+	    {
+	      "iconPath": "static/tabbar/select_mine.png",
+	      "selectedIconPath": "static/tabbar/select_mine_active.png",
+	      "pagePath": "pages/about/about",
+	      "text": "关于"
+	    }
+	  ]
+	},
+	"uniIdRouter": {
+	}
 }
